@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GlobalVariables.cpp">
+      <Filter>GlobalVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="Pch.cpp">
+      <Filter>Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Glad.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Engine\Shader Stuff\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine\Shader Stuff\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Engine\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>UI\PauseMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMatrices.cpp">
+      <Filter>Engine\GlobalMatrices</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Application\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Application\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingPiece.cpp">
+      <Filter>Application\Piece\FallingPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="TableDimensions.cpp">
+      <Filter>TableDimensions</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>GameMode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalVariables.hpp">
+      <Filter>GlobalVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="Pch.hpp">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.hpp">
+      <Filter>Engine\Maths\Vectors/Matrices\Mat4</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec4.hpp">
+      <Filter>Engine\Maths\Vectors/Matrices\Vec4</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.hpp">
+      <Filter>Engine\Maths\Vectors/Matrices\Vec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultType.hpp">
+      <Filter>Engine\Maths\Vectors/Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.hpp">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.hpp">
+      <Filter>Engine\Shader Stuff\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Engine\Shader Stuff\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Arithmetic.hpp">
+      <Filter>Engine\Maths\Arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.hpp">
+      <Filter>Engine\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.hpp">
+      <Filter>Engine\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.hpp">
+      <Filter>UI\PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TileColor.hpp">
+      <Filter>TileColor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMatrices.hpp">
+      <Filter>Engine\GlobalMatrices</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.hpp">
+      <Filter>Application\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.hpp">
+      <Filter>Application\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingPiece.hpp">
+      <Filter>Application\Piece\FallingPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="TableDimensions.hpp">
+      <Filter>TableDimensions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.hpp">
+      <Filter>GameMode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GlobalVariables">
+      <UniqueIdentifier>{9792089c-66e2-4061-bd2c-328f77307ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pch">
+      <UniqueIdentifier>{3cdb7f1b-a3d2-4499-bb97-947c04a73f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e790ab6c-0ebd-49c0-b784-6d63b2d0f96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{0cb21d02-7025-4e13-bf6b-aeab83fc0d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{2b7a4daa-d2a6-407f-9ce8-19b3d87cdd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\PauseMenu">
+      <UniqueIdentifier>{5884fbc1-17db-40e1-9dfb-4072347d44b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Piece">
+      <UniqueIdentifier>{489f539d-d2bd-4557-b7df-c8756379c76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{7d031bf5-e63d-42d1-8cbd-26f7674f4e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer">
+      <UniqueIdentifier>{9e15b509-890b-4339-8594-a3036e76b0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\cube shader">
+      <UniqueIdentifier>{b396fc00-c452-42a4-9b83-ec38ceeeeaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\screen shader">
+      <UniqueIdentifier>{6b7e87a4-716f-4567-8778-99f6d31dc06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TileColor">
+      <UniqueIdentifier>{3b41f537-e246-4593-8d64-8630fb38866a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\table shader">
+      <UniqueIdentifier>{385d954b-a634-43a0-9228-8d11c31dba32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader Stuff">
+      <UniqueIdentifier>{ddf0bd4c-ae50-4718-8358-ead4f18bf5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader Stuff\Shader">
+      <UniqueIdentifier>{541a1b11-6e43-46b6-bab7-f29c35cdbbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader Stuff\ShaderManager">
+      <UniqueIdentifier>{ac343466-7692-4afe-879b-47713521b943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState">
+      <UniqueIdentifier>{07f0ecc1-ff0e-42ad-ab02-f14dc486968a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{49ed5a38-41be-4634-836f-75ae648f2104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Table">
+      <UniqueIdentifier>{74fc264f-56ef-4e6d-8f92-ec36df079dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Piece\FallingPiece">
+      <UniqueIdentifier>{04ae7d27-7c82-4903-9711-642de6ab8d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TableDimensions">
+      <UniqueIdentifier>{d27ed331-712d-4036-b4fc-644c4a69dca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{82e61dae-62db-4f7f-9800-7c5e196b7d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GlobalMatrices">
+      <UniqueIdentifier>{5163e2de-3236-434d-b8d7-7ec6d21856d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Skybox">
+      <UniqueIdentifier>{0b262132-6720-48b7-a0e6-16dfebf4dcb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Skybox\skybox shader">
+      <UniqueIdentifier>{24a70bcc-ac27-4377-98d2-59cc5383039d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths">
+      <UniqueIdentifier>{4285fff4-bcc0-4ec4-81e4-8f930fb878a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths\Vectors/Matrices">
+      <UniqueIdentifier>{28ccf5ea-495d-4c4f-bf0b-7b5be54ae408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths\Vectors/Matrices\Vec4">
+      <UniqueIdentifier>{8caaebf4-2c03-4b16-8e23-7efa56442b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths\Vectors/Matrices\Vec3">
+      <UniqueIdentifier>{c344886f-aad8-45ed-be8d-72a36899d031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths\Vectors/Matrices\Mat4">
+      <UniqueIdentifier>{031fef45-9666-47bb-be5c-b2dd3c91cfea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths\Arithmetic">
+      <UniqueIdentifier>{6a556bc9-bbd9-4b48-8843-eb5683864026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TextureManager">
+      <UniqueIdentifier>{bffde881-334c-49e0-903e-6b9a9b1055e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMode">
+      <UniqueIdentifier>{6b25b53d-666a-4e53-bfcb-1784cb04d352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mat4.inl">
+      <Filter>Engine\Maths\Vectors/Matrices\Mat4</Filter>
+    </None>
+    <None Include="Vec4.inl">
+      <Filter>Engine\Maths\Vectors/Matrices\Vec4</Filter>
+    </None>
+    <None Include="Vec3.inl">
+      <Filter>Engine\Maths\Vectors/Matrices\Vec3</Filter>
+    </None>
+    <None Include="Arithmetic.inl">
+      <Filter>Engine\Maths\Arithmetic</Filter>
+    </None>
+    <None Include="res\shaders\skybox.frag">
+      <Filter>Engine\Skybox\skybox shader</Filter>
+    </None>
+    <None Include="res\shaders\skybox.vert">
+      <Filter>Engine\Skybox\skybox shader</Filter>
+    </None>
+    <None Include="res\shaders\cube.frag">
+      <Filter>Engine\Renderer\cube shader</Filter>
+    </None>
+    <None Include="res\shaders\cube.vert">
+      <Filter>Engine\Renderer\cube shader</Filter>
+    </None>
+    <None Include="res\shaders\screen.frag">
+      <Filter>Engine\Renderer\screen shader</Filter>
+    </None>
+    <None Include="res\shaders\screen.vert">
+      <Filter>Engine\Renderer\screen shader</Filter>
+    </None>
+    <None Include="res\shaders\table.frag">
+      <Filter>Engine\Renderer\table shader</Filter>
+    </None>
+    <None Include="res\shaders\table.vert">
+      <Filter>Engine\Renderer\table shader</Filter>
+    </None>
+    <None Include="res\Pieces.3dtetris">
+      <Filter>Application</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+#include "Pch.hpp" // Precompiled header to speed-up compilations
